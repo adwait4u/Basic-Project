@@ -19,7 +19,7 @@ public class FactorialCalculator {
 	}
 
 	private static long factorial(int n){
-		if (n==0 || n==1){
+		if (n<=1){
 			return 1;
 		}else{
 			return n*factorial(n-1);
@@ -34,7 +34,7 @@ public class FactorialCalculator {
 	}
 	
 	private static int fibo(int n){
-		if (n==1 || n==2)
+		if (n<-1)
 		{
 			return 1;
 		}
